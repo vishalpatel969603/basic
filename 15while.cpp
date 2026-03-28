@@ -1,15 +1,19 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int n,m ;
+    int n,m=0;
     
     cout<<"enter the value of n=";
-    cin>>n,m;
+    cin>>n;
    int i=1;
     while(i<=n){
-        n=n%10;
-      
+         m=m*10 +(n%10);
+         n=n/10;
+    }
+    if(m==0){
+        cout<<" ";
     }
    
-    cout<<m;
+   else { cout<<m;
+}
 }
