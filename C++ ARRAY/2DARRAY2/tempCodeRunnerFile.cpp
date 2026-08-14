@@ -1,0 +1,1 @@
+if(minr>maxr or minc>maxc) break;
