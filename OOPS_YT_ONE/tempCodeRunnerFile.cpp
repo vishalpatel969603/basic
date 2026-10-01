@@ -1,0 +1,3 @@
+float getmarks(){
+//     return marks;
+// }

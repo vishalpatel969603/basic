@@ -16,7 +16,6 @@ int main(){
         else if(arr[i]==max_el){
             count++;
         }
-       
     }
      ans = max(ans,count);
     cout<<ans;
